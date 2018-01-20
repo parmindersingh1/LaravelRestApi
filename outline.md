@@ -66,6 +66,20 @@ _36 修改 User 模型的属性_
 
 _37 修改模型间的Relationships 的关系_
 
+**第九节 使用Migration 建立数据库**
+
+_38 解决 laravel migrations 存在一个问题_
+修改\app\Providers\AppServiceProvider.php文件：
+
+    use Illuminate\Support\Facades\Schema;
+    public function boot()
+    {
+        Schema::defaultStringLength(191);
+    }
+Laravel 5.5, Homestead 没这个问题
+
+_39 修改 User Migration_
+为 User Migration 添加必要的字段
 
 97:缺少数据库
 ```
