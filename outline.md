@@ -97,7 +97,12 @@ php artisan make:migration category_product_table --create=category_product
 为 category_product Migration 添加必要的字段
 
 **第九节 建立 Database Seeding**
-_44 为 user 建立数据工厂_
+_44 修改 user 数据工厂_
+
+_45 建立 category 数据工厂_
+```
+php artisan make:factory Category 
+```
 
 97:缺少数据库
 ```
