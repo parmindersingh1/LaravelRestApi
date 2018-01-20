@@ -81,6 +81,9 @@ Laravel 5.5, Homestead 没这个问题
 _39 修改 User Migration_
 为 User Migration 添加必要的字段
 
+_40 修改 Category Migration_
+为 Category Migration 添加必要的字段
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
