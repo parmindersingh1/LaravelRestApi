@@ -90,6 +90,14 @@ _41 修改 Product Migration_
 _42 修改 Transaction Migration_
 为 Transaction Migration 添加必要的字段
 
+_43 建立关联数据库的 Migration_
+```
+php artisan make:migration category_product_table --create=category_product
+```
+为 category_product Migration 添加必要的字段
+
+**第九节 建立 Database Seeding**
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
