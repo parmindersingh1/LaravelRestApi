@@ -48,6 +48,10 @@ php artisan make:controller User/UserController -r
 ```
 
 _31 用 Laravel Resource Route 创建访问路径_
+修改了 route\api.php 文件
+
+_32 定义 Category 模型的属性_
+修改了 app\Category.php 文件
 
 97:缺少数据库
 ```
