@@ -35,7 +35,7 @@ Category, Product, Transaction, 创建模型的同时创建 migration
     php artisan make:model Transaction -m
     ```
 
-_30 创建控制器_
+_31 创建控制器_
 
 以 Resource 的方式创建控制器： -r
 ```
@@ -47,10 +47,11 @@ php artisan make:controller Transaction/TransactionController -r
 php artisan make:controller User/UserController -r
 ```
 
-_31 用 Laravel Resource Route 创建访问路径_
+_32 用 Laravel Resource Route 创建访问路径_
 修改了 route\api.php 文件
 
-_32 定义 Category 模型的属性_
+**第八节 Creating the Initial Laravel Components for the RESTful API**
+_33 定义 Category 模型的属性_
 修改了 app\Category.php 文件
 
 97:缺少数据库
