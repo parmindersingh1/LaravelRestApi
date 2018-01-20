@@ -84,6 +84,9 @@ _39 修改 User Migration_
 _40 修改 Category Migration_
 为 Category Migration 添加必要的字段
 
+_41 修改 Product Migration_
+为 Product Migration 添加必要的字段
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
