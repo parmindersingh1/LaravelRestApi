@@ -51,8 +51,12 @@ _32 用 Laravel Resource Route 创建访问路径_
 修改了 route\api.php 文件
 
 **第八节 Creating the Initial Laravel Components for the RESTful API**
+
 _33 定义 Category 模型的属性_
 修改了 app\Category.php 文件
+
+_34 定义 Product 模型的属性_
+修改了 app\Product.php 文件
 
 97:缺少数据库
 ```
