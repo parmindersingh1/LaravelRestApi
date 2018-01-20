@@ -58,6 +58,9 @@ _33 定义 Category 模型的属性_
 _34 定义 Product 模型的属性_
 修改了 app\Product.php 文件
 
+_35 定义 Transaction 模型的属性_
+修改了 app\Transaction.php 文件
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
