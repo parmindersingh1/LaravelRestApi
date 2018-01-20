@@ -64,6 +64,9 @@ _35 定义 Transaction 模型的属性_
 _36 修改 User 模型的属性_
 修改了 app\User.php 文件
 
+_37 修改模型间的Relationships 的关系_
+
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
