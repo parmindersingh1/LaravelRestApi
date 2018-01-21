@@ -110,6 +110,12 @@ php artisan make:factory Product
 ```
 在 public 目录下建立 img 目录，用于存放 product 的图片文件
 
+_47 建立 Transaction 数据工厂_
+```
+php artisan make:factory Transaction 
+```
+
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
