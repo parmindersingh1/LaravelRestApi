@@ -115,6 +115,7 @@ _47 建立 Transaction 数据工厂_
 php artisan make:factory Transaction 
 ```
 
+_48 设置 Seed文件_
 
 97:缺少数据库
 ```
