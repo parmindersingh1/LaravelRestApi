@@ -1,9 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-
 class CreateTransactionsTable extends Migration
 {
     /**
@@ -19,12 +17,10 @@ class CreateTransactionsTable extends Migration
             $table->integer('buyer_id')->unsigned();
             $table->integer('product_id')->unsigned();
             $table->timestamps();
-
-            $table->foreign('buyer_id')->reference('id')->on('users');
-            $table->foreign('product_id')->reference('id')->on('products');
+            $table->foreign('buyer_id')->references('id')->on('users');
+            $table->foreign('product_id')->references('id')->on('products');
         });
     }
-
     /**
      * Reverse the migrations.
      *

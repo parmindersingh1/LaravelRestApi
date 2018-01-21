@@ -115,7 +115,26 @@ _47 建立 Transaction 数据工厂_
 php artisan make:factory Transaction 
 ```
 
-_48 设置 Seed文件_
+_48 设置 Seed 文件_
+
+_49 使用 php artisan 的 migration 和 seeder 生成数据库和数据_
+```
+php artisan migrate
+```
+刷新数据库结构：
+```
+php artisan migrate:refresh
+``` 
+生成数据：
+```
+php artisan db:seed
+```
+出错， 在 User 模型中添加
+```
+protected $table = 'users';
+```
+这样，扩展了 User 模型的 Buyer 和 Seller 都会使用 user table 作为数据库   
+
 
 97:缺少数据库
 ```
