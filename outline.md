@@ -104,6 +104,12 @@ _45 建立 category 数据工厂_
 php artisan make:factory Category 
 ```
 
+_46 建立 Product 数据工厂_
+```
+php artisan make:factory Product 
+```
+在 public 目录下建立 img 目录，用于存放 product 的图片文件
+
 97:缺少数据库
 ```
 php artisan make:controller Seller/SellerTransactionController -r -m Seller
