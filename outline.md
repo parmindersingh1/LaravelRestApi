@@ -96,7 +96,7 @@ php artisan make:migration category_product_table --create=category_product
 ```
 为 category_product Migration 添加必要的字段
 
-**第九节 建立 Database Seeding**
+**第十节 建立 Database Seeding**
 _44 修改 user 数据工厂_
 
 _45 建立 category 数据工厂_
@@ -134,6 +134,10 @@ php artisan db:seed
 protected $table = 'users';
 ```
 这样，扩展了 User 模型的 Buyer 和 Seller 都会使用 user table 作为数据库   
+
+**第十一节 发布 User Controller**
+
+_50 发布 User 的 Index 方法_
 
 
 97:缺少数据库
